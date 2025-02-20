@@ -1,0 +1,110 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: "Pokemon Solid", sans-serif;
+  letter-spacing: 0.3rem;
+}
+
+button {
+  font-family: inherit;
+  letter-spacing: inherit;
+}
+
+.star-sign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  background-image: url(./assets/images/wp12017911-pokemon-banner-wallpapers.png);
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+
+  &__title {
+    color: yellow;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+  }
+
+  &__dropdown {
+    width: 10rem;
+    text-align: center;
+  }
+}
+
+.pokemon {
+  display: flex;
+  flex-direction: column;
+  // justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  background-color: lightpink;
+  min-height: 100vh;
+}
+
+.pokemon__image {
+  width: 400px;
+}
+
+.pokemon__random-btn {
+  width: 20rem;
+  height: 5rem;
+  margin-top: 3rem;
+  border-radius: 10px;
+  background-color: rgb(244, 180, 60);
+  color: white;
+  font-size: 2rem;
+  font-family: "Pokemon Solid", sans-serif;
+}
+
+.pokemon__quiz {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  background-color: rgb(207, 149, 87);
+
+  &__title {
+    color: yellow;
+    font-size: 3.5rem;
+    padding: 2rem 0;
+  }
+
+  &__question {
+    color: yellow;
+    font-size: 3rem;
+    padding: 2rem 0;
+  }
+
+  &__answers {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    justify-content: center;
+  }
+
+  // &__answers-2 {
+  //   display: none;
+  // }
+}
+
+.question__container {
+  text-align: center;
+}
+
+.answer__btn {
+  width: 20rem;
+  height: 5rem;
+  margin-top: 3rem;
+  border-radius: 10px;
+  background-color: rgb(244, 180, 60);
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 2rem;
+}

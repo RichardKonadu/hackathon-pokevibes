@@ -1,6 +1,6 @@
 # PokeVibes
 
-Hackathon project in week 5 of Brainstation software engineering bootcamp.
+24 hour Hackathon project in week 5 of Brainstation software engineering bootcamp to put what we had learnt up to that point into practice.
 
 ## Requirements
 
